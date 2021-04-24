@@ -14,7 +14,9 @@ export class MazuComponent implements OnInit {
   ngOnInit(): void {
   }
 
-
+  onClickMe() {
+    alert("白沙媽已收到信眾的願望，目前求掛人數眾多，請稍後...")
+  }
 
 
 }
